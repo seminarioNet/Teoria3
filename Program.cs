@@ -1,5 +1,10 @@
-﻿List<int> lista = new List<int>() { 10, 20, 30, 40 };
-for (int i = 0; i < lista.Count; i++)
+﻿double[]? vector = new double[10];
+Procesar(vector, 1, 1);
+
+
+void Procesar(double[]? v, int i, int c)
 {
-   Console.WriteLine(lista[i]);
+    c = c + 10;
+    v[i] = 1000 / c;
+    Console.WriteLine(v[i]);
 }
