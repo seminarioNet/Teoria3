@@ -1,3 +1,5 @@
-﻿double r = 2.417;
-Console.WriteLine($"Valor = {r:0.0}");
-Console.WriteLine($"Valor = {r:0.00}");
+﻿List<int> lista = new List<int>() { 10, 20, 30, 40 };
+for (int i = 0; i < lista.Count; i++)
+{
+   Console.WriteLine(lista[i]);
+}
